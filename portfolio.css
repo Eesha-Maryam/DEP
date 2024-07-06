@@ -1,0 +1,273 @@
+ 
+        body, html {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        /* nav bar */
+
+        #navbar{
+            background-color: rgba(200, 200, 200, 0.7);
+            position:sticky;
+            top:0;
+            padding:1%;
+            transition: background-color 0.3s ease;
+        }
+       
+        #navbar ul li{
+            padding:5px;
+            display:inline-block;
+            list-style: none;
+            margin-left:8px;
+            padding: 10px 15px; 
+            transition: color 0.3s ease; 
+        }
+
+        #page-link{
+            color:black;
+            font-weight:bold;
+            font-size:larger;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-decoration:none;
+        }
+        
+        /* home section */
+        
+        #Home{
+            padding:17%;
+            background-image: url('Portfolio_banner.png');
+            background-size: cover; 
+            background-position: center; 
+            height:14vw;
+        }
+
+
+        #Home h1 {
+            text-align:center;
+            color:white;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-weight:bold;
+            font-size:250%;
+        }
+        #Home h3{
+            text-align:center;
+            color:rgb(175, 53, 53);
+            font-weight:lighter;
+            font-style:italic;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size:160%;
+        }
+
+        /* About Section */
+           
+
+        #About{
+            background-color: #f5f5f5;
+            padding: 60px 20px;
+        }
+        
+        .About-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: left;
+        }
+        
+        .About-text {
+            flex: 2;
+            padding-right: 20px;
+        }
+        
+        .About-text h2 {
+            font-size: 2.5em;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        
+        .About-text p {
+            font-size: 1.2em;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        
+        .About-image {
+            flex: 1;
+            margin-left:20px;
+        }
+        
+        .About-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+        /* Education section */
+
+        #Education{
+            background-color: #D9D9D9;
+            padding: 60px 20px;
+        }
+        
+        .Education-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: left;
+        }
+        
+        .Education-image {
+            flex: 1;
+            margin-right: 120px; 
+        }
+        
+        .Education-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+        
+        .Education-text {
+            flex: 2;
+            padding-left: 30px;
+        }
+        
+        .Education-text h2 {
+            font-size: 2.5em;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        
+        .Education-details {
+            margin-bottom: 20px;
+        }
+        
+        .Education-details h3 {
+            font-size: 1.8em;
+            color: #555;
+            margin-bottom: 10px;
+        }
+        
+        .Education-details p {
+            font-size: 1.2em;
+            color: #777;
+            line-height: 1.6;
+            margin-bottom: 5px;
+        }
+
+       /* Work Section */
+
+       #Work {
+        background-color: #f5f5f5;
+        padding: 5%;
+        text-align: center;
+    }
+
+        #Work h2{
+            color:#333;
+            font-weight:bold;
+            font-size:230%;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            text-decoration: underline;
+        }
+        
+        .grid-div{
+       padding:5% 2%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 20px; 
+        }
+   
+    #project {
+        text-decoration: none;
+        border-radius: 8px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #project img {
+        display: block;
+        max-width: 100%;
+        height: 90%;
+    }
+
+    .project-title {
+        margin: 0;
+        background-color: #333333;
+        padding: 5%;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: larger;
+        text-align: center;
+    }
+
+
+
+/* Contact section */
+  
+
+    #Contact{
+        background-color:#D9D9D9;
+        padding:5%;
+        text-align:center;
+    }
+
+    #Contact h1{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color:black;
+        font-weight:bold;
+        font-size:300%; 
+    }
+    #Contact h3{
+        color:black;
+        font-weight:lighter;
+        font-style:italic;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:150%;
+    }
+
+    #contact-info{
+        padding:2%;
+    }
+
+    #profile-link{
+        text-decoration: none;
+        color:black;
+        padding:2%;
+        font-size:200%;
+    }
+
+    .footer{
+        border-top: 5px solid #2980b9;
+        background-color:#333333;
+        padding:3%;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align:center;
+        color:white;
+    }
+     
+    #btn {
+        background-color: #2980b9; 
+        color: white; 
+        padding: 20px; 
+        text-align: center;
+        font-size: 16px; 
+        cursor: pointer; 
+        border: 1px solid transparent;
+        border-radius:5px;
+    }
+        
+        
+    #btn:hover {
+        background-color: #2980b9;
+    }
+
+   
